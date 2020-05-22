@@ -1,0 +1,3 @@
+or <reg> 0x20 - convert to lowercase
+and <reg> 0x20 - convert to uppercase
+shr <reg> 1 jae - check if even number
