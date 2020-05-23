@@ -1,3 +1,6 @@
 or <reg> 0x20 - convert to lowercase
 and <reg> 0x20 - convert to uppercase
 shr <reg> 1 jae - check if even number
+
+test eax, eax  ; set SF to 1 if eax < 0 (negative)
+js error ; jump if SF == 1
